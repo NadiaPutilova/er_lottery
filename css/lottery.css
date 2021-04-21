@@ -1,5 +1,5 @@
 body {
-
+	font-family: 'Ubuntu', sans-serif;
 }
 .container {
 	width: 800px;
@@ -20,7 +20,15 @@ body {
 
 }
 .lottery-button {
-
+	/*font-style: italic;*/
+	font-size: 1em;
+	background-color: #d7ecec;
+	border-color: #003D3F;
+	border-radius: 3px;
+	padding: 5px;
+	display: block;
+	margin-top: 10px;
+	margin-left: 50px;
 }
 .lottery-results {
 	font-family: 'Courgette', cursive;
