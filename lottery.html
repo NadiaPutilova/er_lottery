@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Генератор лотереи</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="lottery.css">
+</head>
+<body>
+	<div class="container">
+		<div class="lottery">
+			<div class="lottery-generate">
+				<form action="">
+					<span class="lottery-title">Количество билетов</span>
+					<input type="number" class="lottery-qty" autofocus min="1" max="300">
+					<input type="submit" value="Сгенерировать" class="lottery-button">
+				</form>
+			</div>
+
+			<div class="lottery-results"></div>
+		</div>
+	</div>
+
+
+
+	<script src="lottery.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+	/*border: 1px solid #078F94;*/
+	padding: 20px;
+}
+.lottery {
+
+}
+.lottery-generate {
+
+}
+.lottery-title {
+
+}
+.lottery-qty {
+
+}
+.lottery-button {
+
+}
+.lottery-results {
+	font-family: 'Courgette', cursive;
+	font-size: 1.2em;
+	display: flex;
+	flex-wrap: wrap;
+}
+.result {
+	display: flex;
+	width: auto;
+	max-width: 10em;
+	justify-content: space-between;
+	margin: 5px 20px;
+}
+.result.strike {
+	background: linear-gradient(to bottom,  #FFF 48%,#003D3F 48%,#003D3F 52%, #fff 52%, #fff 100%);
+}
+.result-count {
+	color: #830101;
+	font-family: 'Arial', sans-serif;
+	font-size: 0.8em;
+	text-align: right;
+	vertical-align: bottom;
+	line-height: 1.7em;
+	display: inline-block;
+	width: 1.2em;
+	margin-right: 10px;
+}
+.result-number {
+	width: 1.3em;
+	text-align: center;
+}
