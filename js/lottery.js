@@ -52,8 +52,10 @@ document.querySelector('.lottery-button').addEventListener('click', (e) => {
 	e.preventDefault()
 
 	qtyLot = document.querySelector('.lottery-qty').value
-	if (qtyLot > 300) qtyLot = 300
-	document.querySelector('.lottery-qty').value = 300
+	if (qtyLot > 300) {
+		qtyLot = 300
+		document.querySelector('.lottery-qty').value = 300 
+	}
 
 	lotteryGenerate()
 
